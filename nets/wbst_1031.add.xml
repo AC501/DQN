@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-31 10:09:19.685827 by tlsCycleAdaptation.py v1_19_0+0000-baa66a0f364
+<configuration>
+    <net-file value="D:/tsc_ddqn_prb_1Con_new/nets/22Grid2lanes_fuben.net.xml"/>
+    <output-file value="D:/tsc_ddqn_prb_1Con_new/nets/wbst_1031.add.xml"/>
+    <route-files value="D:/tsc_ddqn_prb_1Con_new/nets/routes.rou.xml"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="0" type="static" programID="a" offset="0">
+        <phase duration="43" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="2" state="YYYYrrrrYYYYrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="25" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="2" state="rrrrYYYYrrrrYYYY"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="1" type="static" programID="a" offset="0">
+        <phase duration="18" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="2" state="YYYYrrrrYYYYrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="30" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="2" state="rrrrYYYYrrrrYYYY"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="2" type="static" programID="a" offset="0">
+        <phase duration="25" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="2" state="YYYYrrrrYYYYrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="36" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="2" state="rrrrYYYYrrrrYYYY"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="3" type="static" programID="a" offset="0">
+        <phase duration="30" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="2" state="YYYYrrrrYYYYrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="19" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="2" state="rrrrYYYYrrrrYYYY"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+</additional>

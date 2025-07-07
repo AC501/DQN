@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-04 21:51:39.646147 by tlsCycleAdaptation.py v1_19_0+0000-baa66a0f364
+<configuration>
+    <net-file value="D:/tsc_ddqn_prb_1Con_new/nets/22grid_self.net.xml"/>
+    <output-file value="D:/tsc_ddqn_prb_1Con_new/nets/wbst_self.add.xml"/>
+    <route-files value="D:/tsc_ddqn_prb_1Con_new/nets/routes_self.rou.xml"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="0" type="static" programID="a" offset="0">
+        <phase duration="10" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="4" state="yyyyrrrryyyyrrrr"/>
+        <phase duration="8" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="4" state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+    <tlLogic id="1" type="static" programID="a" offset="0">
+        <phase duration="8" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="4" state="yyyyrrrryyyyrrrr"/>
+        <phase duration="10" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="4" state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+    <tlLogic id="2" type="static" programID="a" offset="0">
+        <phase duration="8" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="4" state="yyyyrrrryyyyrrrr"/>
+        <phase duration="10" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="4" state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+    <tlLogic id="3" type="static" programID="a" offset="0">
+        <phase duration="10" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="4" state="yyyyrrrryyyyrrrr"/>
+        <phase duration="8" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="4" state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+</additional>

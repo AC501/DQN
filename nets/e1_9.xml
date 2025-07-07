@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-03 00:55:48 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="nets/22Grid2lanes_fuben1.net.xml"/>
+        <route-files value="nets/routes.rou.xml"/>
+        <additional-files value="nets/22grid_e1_fuben1.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="6000"/>
+    </time>
+
+    <processing>
+        <scale value="5"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="52053"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="110.00" id="e1_9" nVehContrib="10" flow="327.27" occupancy="3.48" speed="13.13" harmonicMeanSpeed="13.08" length="5.00" nVehEntered="10"/>
+</detector>

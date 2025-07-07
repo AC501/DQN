@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- 车辆类型定义 -->
+    <vType id="car" accel="1.0" decel="3.0" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="13.89"/>
+
+    <!-- 路口 0：只从北向（edge 0Ni）发车，分流到南（0No）、西（0Wo）、东（1Wi） -->
+    <flow id="flow0_south" type="car" begin="0" end="3600" number="1000" from="0Ni" to="0No" departLane="random" departSpeed="max"/>
+    <flow id="flow0_west"  type="car" begin="0" end="3600" number="1000" from="0Ni" to="0Wo" departLane="random" departSpeed="max"/>
+    <flow id="flow0_east"  type="car" begin="0" end="3600" number="1000" from="0Ni" to="1Wi" departLane="random" departSpeed="max"/>
+
+    <!-- 路口 2：只从南向（edge 2Si）发车，直行通过路口 2（即驶向路口 0 的 0Si），
+         并在到达路口 0 后同样分流到南、西、东 -->
+    <!-- （直接指定完整路线以保证分流） -->
+    <flow id="flow2_via0_south" type="car" begin="0" end="3600" number="500"
+          edges="2Si 0Si 0No" departLane="random" departSpeed="max"/>
+    <flow id="flow2_via0_west"  type="car" begin="0" end="3600" number="500"
+          edges="2Si 0Si 0Wo" departLane="random" departSpeed="max"/>
+    <flow id="flow2_via0_east"  type="car" begin="0" end="3600" number="500"
+          edges="2Si 0Si 1Wi" departLane="random" departSpeed="max"/>
+
+</routes>
